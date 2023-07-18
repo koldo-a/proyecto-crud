@@ -16,7 +16,7 @@ db = mysql.connector.connect(
 
 @app.route('/items', methods=['GET'])
 def get_items():
-    # Consulta SQL para obtener todos los registros de la tabla
+    # Consulta SQL para obtener todos los registros de la tabl
     query = 'SELECT * FROM items'
 
     # Ejecutar la consulta
